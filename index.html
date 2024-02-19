@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blur-background"> 
+  </div>
+    <div class="container">
+      <p >Test 123</p>
+    </div> 
+      <div class="blur-background"></div> 
+      <div class="signin-box"> 
+        <h2>Sign In</h2> 
+          <input  placeholder="Username" id="Username" required> 
+          <input  type="password" placeholder="Password" id="Password" required> 
+          <input type="button" id="passSHOW" class="passSHOW">
+          <button type="submit"  value="submit" class="button1" onclick="GBU()"> Submit</button> 
+      </div>          
+    </div>
+    <script>
+      function GBU(){
+        var email = document.getElementById("Username").value;
+        var pass  = document.getElementById('Password').value;
+        if (email == 'walaweh@gmail.com' && pass == '123'){
+          alert("SELAMAT ANDA BENAR");
+          window.location.href = "index2.html";
+        }
+        else{
+          alert("WALAWEH SALAH WOI");
+          return;
+        }
+      }
+    </script>
+    <script>
+        let passSHOW = document.getElementById ("passSHOW");
+        let input = document.getElementById ("Password");
+
+        passSHOW.onclick = function(){
+          if (input.type == "password"){
+          input.type = "text";
+              
+          }else{
+          input.type = "password";
+      }
+        }
+      </script>
+  </body> 
+  </html>
+        

@@ -1,0 +1,127 @@
+body{
+  background-image:  url(pexels-simon-berger-1323550.jpg) ;
+  background-size: 210lvh ;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-indent: 20px;
+} 
+
+ 
+
+h2 { 
+  position: relative;
+  margin-bottom: 20px; 
+  text-align: center;
+  color: #000000;
+} 
+
+input:nth-child(2) { 
+  position: relative;
+  width: 50%; 
+  padding: 10px; 
+  margin-bottom: 20px; 
+  display: flex;
+  margin-left: 70px;
+  color: #000000;
+  background-color: rgba(0, 255, 255, 0);
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+
+} 
+input:nth-child(3) { 
+  position: relative;
+  width: 50%; 
+  padding: 10px; 
+  margin-bottom: 20px; 
+  display: flex;
+  margin-left: 70px;
+  color: #000000;
+  background-color: rgba(0, 255, 255, 0);
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+
+} 
+
+input:nth-child(4){
+  background-image: url(walaweh1-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  margin: -7lvh 0lvh 20lvh 38lvh;
+  background-color: transparent;
+  border: transparent;
+  transition: 0,1;
+}
+
+.button1 {
+  margin: 10lvh 40%;
+  display: block;
+  width: 70px;
+  background-color: transparent;
+  border-color: #000000;
+  color: #000000ad;
+  border-radius: 10px;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+.signin-box { 
+  background-color: rgba(0, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  width: 45lvh;  
+  height: 50lvh;
+  margin: auto;
+  margin-top: 20vh;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  display: block;
+  position: ;
+}
+  
+.button1:hover {
+  z-index: 1;
+  color: black;
+  border-color: transparent;
+  background: linear-gradient(319deg, #f2dd6e 0%, #cff27e 37%, #ef959d 100%);
+  animation: glow 12s linear;  
+}
+input:focus{ 
+  outline: none;
+}
+  
+input:nth-child(2):hover {
+  border-bottom-color: rgb(185, 120, 0); 
+  box-shadow: inset 0 -7px 5px -7px rgb(185, 120, 0); 
+  color: rgb(185, 120, 0);
+}
+input:nth-child(3):hover {
+  border-bottom-color: rgb(185, 120, 0); 
+  box-shadow: inset 0 -7px 5px -7px rgb(185, 120, 0); 
+  color: rgb(185, 120, 0);
+}
+
+.signin-box img{
+  width: 20px;
+  cursor: pointer;
+  margin:  -6lvh 100lvh 100lvh 37lvh;
+}
+
+.signin-box img:hover{
+  box-shadow: inset 15px 0px 5px -7px rgb(185, 120, 0); 
+  background-color: rgb(185, 120, 0);
+  background-clip: text;
+  -webkit-text-fill-color: rgb(185, 120, 0);
+}
+
+input:nth-child(4):hover{
+  background-image: url(walaweh2-removebg-preview.png);
+  width: 25px;
+  
+}
